@@ -141,6 +141,42 @@ article {
     background-image: url(img/banner-1.jpg);
     animation: banner-rosaluxemburgo 28s infinite linear;
 }
+.banner-pasionaria {
+    filter:brightness(-10);
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-color: #8F1194;
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-in-out;
+    background-image: url(img/banner-1.jpg);
+    animation: banner-pasionaria 28s infinite linear;
+}
+.banner-campoamor {
+    filter:brightness(-10);
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-color: #8F1194;
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-in-out;
+    background-image: url(img/banner-1.jpg);
+    animation: banner-campoamor 28s infinite linear;
+}
+.banner-montseny {
+    filter:brightness(-10);
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-color: #8F1194;
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-in-out;
+    background-image: url(img/banner-1.jpg);
+    animation: banner-montseny 28s infinite linear;
+}
 
 /*Banner del contenido*/
 .banner-content1 {
@@ -388,6 +424,85 @@ color: #333;
         background-image: url(../img/Rosa-Luxemburgo.jpg);
     }
 }
+@keyframes banner-pasionaria {
+    0% {
+        background-image: url(../img/DoloresIbarruri.jpg);
+    }
+    25% {
+        background-image: url(../img/DoloresIbarruri.jpg);
+    }
+    26% {
+        background-image: url(../img/DoloresIbarruri.jpg);
+    }
+    50% {
+        background-image: url(../img/DoloresIbarruri.jpg);
+    }
+    51% {
+        background-image: url(../img/DoloresIbarruri.jpg);
+    }
+    75% {
+        background-image: url(../img/DoloresIbarruri.jpg);
+    }
+    76% {
+        background-image: url(../img/DoloresIbarruri.jpg);
+    }
+    100% {
+        background-image: url(../img/DoloresIbarruri.jpg);
+    }
+}
+@keyframes banner-campoamor {
+    0% {
+        background-image: url(../img/ClaraCampoamor.jpg);
+    }
+    25% {
+         background-image: url(../img/ClaraCampoamor.jpg);
+    }
+    26% {
+        background-image: url(../img/ClaraCampoamor.jpg);
+        }
+    50% {
+        background-image: url(../img/ClaraCampoamor.jpg);
+    }
+    51% {
+        background-image: url(../img/ClaraCampoamor.jpg);
+    }
+    75% {
+        background-image: url(../img/ClaraCampoamor.jpg);
+    }
+    76% {
+        background-image: url(../img/ClaraCampoamor.jpg);
+    }
+    100% {
+        background-image: url(../img/ClaraCampoamor.jpg);
+    }
+}
+@keyframes banner-montseny {
+    0% {
+        background-image: url(../img/FedericaMontseny.jpg);
+    }
+    25% {
+        background-image: url(../img/FedericaMontseny.jpg);
+    }
+    26% {
+        background-image: url(../img/FedericaMontseny.jpg);
+    }
+    50% {
+        background-image: url(../img/FedericaMontseny.jpg);
+    }
+    51% {
+        background-image: url(../img/FedericaMontseny.jpg);
+    }
+    75% {
+        background-image: url(../img/FedericaMontseny.jpg);
+    }
+    76% {
+        background-image: url(../img/FedericaMontseny.jpg);
+    }
+    100% {
+        background-image: url(../img/FedericaMontseny.jpg);
+    }
+}
+
 
 /*BARRA MENÚ
 * {
