@@ -1,0 +1,498 @@
+/*BODY*/
+/**
+body {    
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "article article article"
+    "footer footer footer";
+    grid-template-rows: 50px auto 50px ;
+    grid-auto-columns: 20% 1fr 15%;
+    grid-gap: 5px;
+    height: 100vh;
+    margin: 0;
+}
+
+header, footer, article {
+    padding: 0px;
+}
+
+article {
+    padding: 0;
+}
+
+#header {
+    grid-area: header;
+}
+
+#article {
+    grid-area: article;
+}
+
+#footer {
+    grid-area: footer;
+}
+*/
+/*CARRUSEL*/
+
+/*Banner de cada html*/
+.banner {
+    filter:brightness(-2);
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-color: #8F1194;
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-in-out;
+    background-image: url(img/banner-1.jpg);
+    animation: banner 28s infinite linear;
+}
+
+.banner-origen {
+    filter:brightness(-2);
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-color: #8F1194;
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-in-out;
+    background-image: url(img/banner-1.jpg);
+    animation: banner-origen 28s infinite linear;
+}
+
+.banner-cigarreras {
+    filter:brightness(-10);
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-color: #8F1194;
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-in-out;
+    background-image: url(img/banner-1.jpg);
+    animation: banner-cigarreras 28s infinite linear;
+}
+
+.banner-adalovelace {
+    filter:brightness(-10);
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-color: #8F1194;
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-in-out;
+    background-image: url(img/banner-1.jpg);
+    animation: banner-adalovelace 28s infinite linear;
+}
+
+
+.banner-mariecurie {
+    filter:brightness(-10);
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-color: #8F1194;
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-in-out;
+    background-image: url(img/banner-1.jpg);
+    animation: banner-mariecurie 28s infinite linear;
+}
+
+
+.banner-kolontai {
+    filter:brightness(-10);
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-color: #8F1194;
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-in-out;
+    background-image: url(img/banner-1.jpg);
+    animation: banner-kolontai 28s infinite linear;
+}
+
+.banner-zetkin {
+    filter:brightness(-10);
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-color: #8F1194;
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-in-out;
+    background-image: url(img/banner-1.jpg);
+    animation: banner-zetkin 28s infinite linear;
+}
+
+.banner-rosaluxemburgo {
+    filter:brightness(-10);
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-color: #8F1194;
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-in-out;
+    background-image: url(img/banner-1.jpg);
+    animation: banner-rosaluxemburgo 28s infinite linear;
+}
+
+/*Banner del contenido*/
+.banner-content1 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content1 h1{
+    text-decoration: none;
+    background-color: #8F1194;
+    color: whitesmoke;
+    padding-top: 9px;
+    padding: 9px 20px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+}
+
+.banner-content1 a {
+background-color: #FFF;
+color: #333;
+}
+
+/*Keyframes de cada html*/
+
+@keyframes banner {
+    0% {
+        background-image: url(../img/banner-1.jpg);
+    }
+    25% {
+        background-image: url(../img/banner-1.jpg);
+    }
+    26% {
+        background-image: url(../img/banner-2.jpeg);
+    }
+    50% {
+        background-image: url(../img/banner-2.jpeg);
+    }
+    51% {
+        background-image: url(../img/banner-3.jpg);
+    }
+    75% {
+        background-image: url(../img/banner-3.jpg);
+    }
+    76% {
+        background-image: url(../img/banner-4.jpg);
+    }
+    100% {
+        background-image: url(../img/banner-4.jpg);
+    }
+}
+
+@keyframes banner-origen {
+    0% {
+        background-image: url(../img/mujeres-obreras-rusas.jpg);
+    }
+    25% {
+        background-image: url(../img/mujeres-obreras-rusas.jpg);
+    }
+    26% {
+        background-image: url(../img/mujeres-obreras-rusas-2.jpg);
+    }
+    50% {
+        background-image: url(../img/mujeres-obreras-rusas-2.jpg);
+    }
+    51% {
+        background-image: url(../img/mujeres-eeuu-socialistas.jpg);
+    }
+    75% {
+        background-image: url(../img/mujeres-eeuu-socialistas.jpg);
+    }
+    76% {
+        background-image: url(../img/mujeres-rusas.jpg);
+    }
+    100% {
+        background-image: url(../img/mujeres-rusas.jpg);
+    }
+}
+
+@keyframes banner-cigarreras {
+    0% {
+        background-image: url(../img/cigarreras1.jpg);
+    }
+    25% {
+        background-image: url(../img/cigarreras1.jpg);
+    }
+    26% {
+        background-image: url(../img/cigarreras1.jpg);
+    }
+    50% {
+        background-image: url(../img/cigarreras1.jpg);
+    }
+    51% {
+        background-image: url(../img/cigarreras1.jpg);
+    }
+    75% {
+        background-image: url(../img/cigarreras1.jpg);
+    }
+    76% {
+        background-image: url(../img/cigarreras1.jpg);
+    }
+    100% {
+        background-image: url(../img/cigarreras1.jpg);
+    }
+}
+
+@keyframes banner-adalovelace {
+    0% {
+        background-image: url(../img/ada-lovelace-2.jpg);
+    }
+    25% {
+        background-image: url(../img/ada-lovelace-2.jpg);
+    }
+    26% {
+        background-image: url(../img/ada-lovelace-2.jpg);
+    }
+    50% {
+        background-image: url(../img/ada-lovelace-2.jpg);
+    }
+    51% {
+        background-image: url(../img/ada-lovelace-2.jpg);
+    }
+    75% {
+        background-image: url(../img/ada-lovelace-2.jpg);
+    }
+    76% {
+        background-image: url(../img/ada-lovelace-2.jpg);
+    }
+    100% {
+        background-image: url(../img/ada-lovelace-2.jpg);
+    }
+}
+
+@keyframes banner-kolontai {
+    0% {
+        background-image: url(../img/kolontai-1.jpg);
+    }
+    25% {
+        background-image: url(../img/kolontai-1.jpg);
+    }
+    26% {
+        background-image: url(../img/kolontai-1.jpg);
+    }
+    50% {
+        background-image: url(../img/kolontai-1.jpg);
+    }
+    51% {
+        background-image: url(../img/kolontai-1.jpg);
+    }
+    75% {
+        background-image: url(../img/kolontai-1.jpg);
+    }
+    76% {
+        background-image: url(../img/kolontai-1.jpg);
+    }
+    100% {
+        background-image: url(../img/kolontai-1.jpg);
+    }
+}
+
+@keyframes banner-mariecurie {
+    0% {
+        background-image: url(../img/mariecurie.jpg);
+    }
+    25% {
+        background-image: url(../img/mariecurie.jpg);
+    }
+    26% {
+        background-image: url(../img/mariecurie.jpg);
+    }
+    50% {
+        background-image: url(../img/mariecurie.jpg);
+    }
+    51% {
+        background-image: url(../img/mariecurie.jpg);
+    }
+    75% {
+        background-image: url(../img/mariecurie.jpg);
+    }
+    76% {
+        background-image: url(../img/mariecurie.jpg);
+    }
+    100% {
+        background-image: url(../img/mariecurie.jpg);
+    }
+}
+
+@keyframes banner-zetkin {
+    0% {
+        background-image: url(../img/zetkin.jpg);
+    }
+    25% {
+        background-image: url(../img/zetkin.jpg);
+    }
+    26% {
+        background-image: url(../img/zetkin.jpg);
+    }
+    50% {
+        background-image: url(../img/zetkin.jpg);
+    }
+    51% {
+        background-image: url(../img/zetkin.jpg);
+    }
+    75% {
+        background-image: url(../img/zetkin.jpg);
+    }
+    76% {
+        background-image: url(../img/zetkin.jpg);
+    }
+    100% {
+        background-image: url(../img/zetkin.jpg);
+    }
+}
+
+@keyframes banner-rosaluxemburgo {
+    0% {
+        background-image: url(../img/Rosa-Luxemburgo.jpg);
+    }
+    25% {
+        background-image: url(../img/Rosa-Luxemburgo.jpg);
+    }
+    26% {
+        background-image: url(../img/Rosa-Luxemburgo.jpg);
+    }
+    50% {
+        background-image: url(../img/Rosa-Luxemburgo.jpg);
+    }
+    51% {
+        background-image: url(../img/Rosa-Luxemburgo.jpg);
+    }
+    75% {
+        background-image: url(../img/Rosa-Luxemburgo.jpg);
+    }
+    76% {
+        background-image: url(../img/Rosa-Luxemburgo.jpg);
+    }
+    100% {
+        background-image: url(../img/Rosa-Luxemburgo.jpg);
+    }
+}
+
+/*BARRA MENÚ
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: montserrat;
+}
+nav {
+    background: #0E87A4;
+    height: 80px;
+    width: 100%;
+}
+label.logo {
+    color: rgb(81, 2, 84);
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover {
+    background: #1b9bff;
+    transition: .5s;
+}
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display: none;
+}
+@media (max-width: 952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover,:active {
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+}*/
+
+/*SECCIONES CSS GENERAL
+
+.style1 {
+    width: 100%;
+    height: calc(80vh - 50px);
+    background-color: #0E87A4;
+}
+
+.style2 {
+    width: 100%;
+    height: calc(80vh - 50px);
+    background-color: rgb(81, 2, 84);
+}*/
